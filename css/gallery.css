@@ -48,32 +48,28 @@ body {
 
     }
 
-    h1, h3, h4 {
-      text-align: center;
-      margin-top: 40px;
-      color: black;
-    }
+   @keyframes slide {
+  0% {
+    background-position: 0% 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
 
-    .zoom-img {
-      transition: transform 0.3s ease;
-      cursor: pointer;
-      border-radius: 10px;
-    }
+/* Image zoom on hover */
+.zoom-img {
+  transition: transform 0.3s ease-in-out;
+  border-radius: 8px;
+  width: 100%;
+}
 
-    .zoom-img:hover {
-      transform: scale(1.1);
-    }
+.zoom-img:hover {
+  transform: scale(1.05);
+}
 
-    .gallery-row {
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      flex-wrap: wrap;
-      margin-bottom: 40px;
-    }
 
-    .gallery-img {
-      width: 30%;
-      max-width: 100%;
-      height: 50vh;
-    }
+/* Headings and spacing */
+h3, h5 {
+  margin-top: 20px;
+}
