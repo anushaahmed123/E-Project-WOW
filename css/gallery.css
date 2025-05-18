@@ -52,3 +52,35 @@
     border-radius: 50%;
     box-shadow: 0 2px 8px rgba(0,0,0,0.2);
 }
+ footer {
+      background-color: #000;
+      color: #EFE095;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    footer a {
+      color: white;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      color: #EFE095;
+
+    }
+
+    h5 {
+      color: #EFE095;
+    }
+
+    h5 {
+      color: #EFE095;
+    }
+
+    .golden-line {
+      height: 4px;
+      background-color: #EFE095;
+      width: 100%;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    }
+
